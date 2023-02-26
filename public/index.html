@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Uploader</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <h1>Image Uploader</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+      <input type="file" name="image[]" multiple>
+      <input type="submit" value="Upload">
+    </form>
+    <div id="file-tree"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
